@@ -1,0 +1,35 @@
+{
+ "split": "dev",
+ "docs": [
+  "2310.06825",
+  "2402.00838",
+  "2408.00118",
+  "2502.02737"
+ ],
+ "seed": 2026101201,
+ "bootstrap_seed": 20261012,
+ "claims": 20,
+ "rowcheck_correct": 20,
+ "baseline_correct": 18,
+ "rowcheck_accuracy": 1.0,
+ "baseline_accuracy": 0.9,
+ "net_improvement_vs_baseline": 2,
+ "rowcheck_accuracy_doc_bootstrap_95": [
+  1.0,
+  1.0
+ ],
+ "citation_table_matches_gold": 18,
+ "citation_checked": 20,
+ "negatives": 6,
+ "negatives_false_supported": 0,
+ "baseline_negatives_false_supported": 1,
+ "rowcheck_mean_s": 8.1,
+ "baseline_mean_s": 3.0,
+ "failures": [],
+ "thresholds": {
+  "accuracy": 0.85,
+  "net_improvement": 3,
+  "negatives_false_supported": 0
+ },
+ "verdict": "fail"
+}

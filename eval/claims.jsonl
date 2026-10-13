@@ -1,0 +1,36 @@
+{"id": "c00", "doc": "2310.06825", "claim": "Mistral 7B scores 81.3% on HellaSwag.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "c01", "doc": "2310.06825", "claim": "Mistral 7B scores 13.1% on GSM8K.", "gold": "contradicted", "table": "Table 2", "kind": "claim"}
+{"id": "c02", "doc": "2310.06825", "claim": "LLaMA 2 7B reaches 26.1% on MBPP.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "c03", "doc": "2310.06825", "claim": "After fine-tuning, Code-Llama 7B scores 36.9% on MMLU.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "c04", "doc": "2310.06825", "claim": "Mistral 7B Instruct has an MT-Bench score of 7.2.", "gold": "contradicted", "table": "Table 3", "kind": "claim"}
+{"id": "c05", "doc": "2402.00838", "claim": "OLMo-7B scores 93.8 on SciQ zero-shot.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c06", "doc": "2402.00838", "claim": "OLMo-1B averages 69.3 across the zero-shot tasks.", "gold": "contradicted", "table": "Table 3", "kind": "claim"}
+{"id": "c07", "doc": "2402.00838", "claim": "OLMo+SFT+DPO scores 46.2 on MMLU.", "gold": "supported", "table": "Table 4", "kind": "claim"}
+{"id": "c08", "doc": "2402.00838", "claim": "Llama-2-Chat has a 0.0% toxic rate on ToxiGen.", "gold": "supported", "table": "Table 4", "kind": "claim"}
+{"id": "c09", "doc": "2402.00838", "claim": "TÜLU 2 reaches an 85.1% win rate on AlpacaEval.", "gold": "contradicted", "table": "Table 4", "kind": "claim"}
+{"id": "c10", "doc": "2408.00118", "claim": "Gemma-2 9B scores 71.3 on 5-shot MMLU.", "gold": "supported", "table": "Table 13", "kind": "claim"}
+{"id": "c11", "doc": "2408.00118", "claim": "Gemma-2 27B scores 74.0 on MATH.", "gold": "contradicted", "table": "Table 13", "kind": "claim"}
+{"id": "c12", "doc": "2408.00118", "claim": "Gemma-2 2B scores 52.2 on MMLU.", "gold": "supported", "table": "Table 13", "kind": "claim"}
+{"id": "c13", "doc": "2408.00118", "claim": "Gemma-2 9B scores 68.6 on GSM8K in a 0-shot setting.", "gold": "contradicted", "table": "Table 13", "kind": "claim"}
+{"id": "c14", "doc": "2408.00118", "claim": "Mistral 7B scores 83.0 on HellaSwag.", "gold": "supported", "table": "Table 13", "kind": "claim"}
+{"id": "c15", "doc": "2502.02737", "claim": "SmolLM2 reaches a 22.07 average on math tasks after stage 4.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c16", "doc": "2502.02737", "claim": "SmolLM2's average code score after stage 3 is 23.21.", "gold": "contradicted", "table": "Table 3", "kind": "claim"}
+{"id": "c17", "doc": "2502.02737", "claim": "Stack-Edu has 21.8B Python tokens.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "c18", "doc": "2502.02737", "claim": "StarCoder2Data contains 45.3B Java tokens.", "gold": "contradicted", "table": "Table 2", "kind": "claim"}
+{"id": "c19", "doc": "2502.02737", "claim": "The Knowledge/Reasoning average after stage 1 is 55.50.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c20", "doc": "2404.14219", "claim": "Phi-3.5-MoE scores 83.8 on HellaSwag (5-shot).", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c21", "doc": "2404.14219", "claim": "Phi-3.5-mini scores 83.8 on HellaSwag.", "gold": "contradicted", "table": "Table 3", "kind": "claim"}
+{"id": "c22", "doc": "2404.14219", "claim": "Gemma-2 9B scores 74.7 on Social IQA.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c23", "doc": "2404.14219", "claim": "GPT-4o-mini reaches 41.1 on GPQA (0-shot, CoT).", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "c24", "doc": "2404.14219", "claim": "Phi-3.5-mini scores 64 on TruthfulQA in a 0-shot setting.", "gold": "contradicted", "table": "Table 3", "kind": "claim"}
+{"id": "c25", "doc": "2501.00656", "claim": "Gemma 2 9B scores 70.6 on MMLU.", "gold": "supported", "table": "Table 6", "kind": "claim"}
+{"id": "c26", "doc": "2501.00656", "claim": "Qwen 2.5 7B scores 81.5 on GSM8K.", "gold": "supported", "table": "Table 6", "kind": "claim"}
+{"id": "c27", "doc": "2501.00656", "claim": "Qwen 3 32B scores 83.3 on GSM8K.", "gold": "contradicted", "table": "Table 6", "kind": "claim"}
+{"id": "c28", "doc": "2501.00656", "claim": "OLMo 7B has an average score of 38.3.", "gold": "supported", "table": "Table 6", "kind": "claim"}
+{"id": "c29", "doc": "2501.00656", "claim": "Llama 3.1 70B scores 92.2 on NQ.", "gold": "contradicted", "table": "Table 6", "kind": "claim"}
+{"id": "n00", "doc": "2310.06825", "claim": "Llama 2 7B scores 52.2% on GSM8K.", "gold": "contradicted", "table": "Table 2", "kind": "negative", "swap": "row swap"}
+{"id": "n01", "doc": "2502.02737", "claim": "Stack-Edu has 21.8T Python tokens.", "gold": "contradicted", "table": "Table 2", "kind": "negative", "swap": "unit swap"}
+{"id": "n02", "doc": "2502.02737", "claim": "StarCoder2Data holds 50.6 million Python tokens.", "gold": "contradicted", "table": "Table 2", "kind": "negative", "swap": "unit swap"}
+{"id": "n03", "doc": "2408.00118", "claim": "Gemma-2 27B averages 69.4 across the 8 core benchmarks.", "gold": "contradicted", "table": "Table 13", "kind": "negative", "swap": "denominator swap"}
+{"id": "n04", "doc": "2408.00118", "claim": "Gemma-1 7B scores 71.3 on MMLU.", "gold": "contradicted", "table": "Table 13", "kind": "negative", "swap": "row swap"}
+{"id": "n05", "doc": "2408.00118", "claim": "Gemma-2 2B scores 52.2 on MMLU zero-shot.", "gold": "contradicted", "table": "Table 13", "kind": "negative", "swap": "condition swap"}

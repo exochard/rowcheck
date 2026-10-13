@@ -1,0 +1,106 @@
+{
+ "split": "unseen",
+ "docs": [
+  "2309.16609",
+  "2401.04088",
+  "2403.08295",
+  "2406.11704"
+ ],
+ "seed": 2026101201,
+ "bootstrap_seed": 20261012,
+ "claims": 13,
+ "rowcheck_correct": 9,
+ "baseline_correct": 12,
+ "rowcheck_accuracy": 0.692,
+ "baseline_accuracy": 0.923,
+ "net_improvement_vs_baseline": -3,
+ "rowcheck_accuracy_doc_bootstrap_95": [
+  0.5,
+  0.909
+ ],
+ "citation_table_matches_gold": 8,
+ "citation_checked": 8,
+ "negatives": 9,
+ "negatives_false_supported": 4,
+ "baseline_negatives_false_supported": 4,
+ "rowcheck_mean_s": 8.5,
+ "baseline_mean_s": 3.3,
+ "failures": [
+  {
+   "id": "u01",
+   "claim": "Gemma 2B reaches 32.3% pass@1 on HumanEval.",
+   "gold": "contradicted",
+   "rowcheck": "supported",
+   "rowcheck_summary": "Table 6 (p. 6) reports 32.3 for Gemma 2B / 7B 2B."
+  },
+  {
+   "id": "u02",
+   "claim": "LLaMA-2 13B scores 28.7 on GSM8K.",
+   "gold": "supported",
+   "rowcheck": "unsupported",
+   "rowcheck_summary": "No table row measures this claim."
+  },
+  {
+   "id": "u04",
+   "claim": "Gemma 2B scores 24.3 on MATH.",
+   "gold": "contradicted",
+   "rowcheck": "supported",
+   "rowcheck_summary": "Table 6 (p. 6) reports 24.3 for Gemma 2B / 7B."
+  },
+  {
+   "id": "u07",
+   "claim": "Mixtral 8x7B scores 72.5% on German MMLU.",
+   "gold": "contradicted",
+   "rowcheck": "supported",
+   "rowcheck_summary": "Table 4 (p. 5) reports 72.5% for Mixtral 8x7B / MMLU (German)."
+  },
+  {
+   "id": "u09",
+   "claim": "Llama 2 70B scores 69.6% on GSM8K with 5-shot prompting.",
+   "gold": "contradicted",
+   "rowcheck": "ambiguous",
+   "rowcheck_summary": "Table 2 (p. 4) reports 69.6% for Llama 2 70B / GSM8K; the table does not state 5-shot prompting."
+  },
+  {
+   "id": "u10",
+   "claim": "Mixtral 8x7B uses 13B active parameters.",
+   "gold": "supported",
+   "rowcheck": "ambiguous",
+   "rowcheck_summary": "The cited cell '13B' is not printed on Table 2 line 8."
+  },
+  {
+   "id": "u11",
+   "claim": "Mixtral 8x7B scores 45.0 on GPQA.",
+   "gold": "unsupported",
+   "rowcheck": "ambiguous",
+   "rowcheck_summary": "The cited cell '' is not printed on Table 2 line 8."
+  },
+  {
+   "id": "u14",
+   "claim": "Llama-3 70B reaches 57.32 pass@1 on HumanEval.",
+   "gold": "contradicted",
+   "rowcheck": "ambiguous",
+   "rowcheck_summary": "The cited cell '48.20∗' is not printed on Table 3 line 3."
+  },
+  {
+   "id": "u17",
+   "claim": "Qwen 14B scores 66.3 on MMLU.",
+   "gold": "supported",
+   "rowcheck": "ambiguous",
+   "rowcheck_summary": "The cited cell '66.3' is not printed on Table 2 line 6."
+  },
+  {
+   "id": "u18",
+   "claim": "Llama 2 70B scores 80.3 on MMLU.",
+   "gold": "contradicted",
+   "rowcheck": "supported",
+   "rowcheck_summary": "Table 13 (p. 37) reports 80.3 for Llama 2 70B / col3."
+  }
+ ],
+ "thresholds": {
+  "accuracy": 0.85,
+  "net_improvement": 3,
+  "negatives_false_supported": 0
+ },
+ "verdict": "fail"
+}

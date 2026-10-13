@@ -1,0 +1,22 @@
+{"id": "u00", "doc": "2403.08295", "claim": "Gemma 7B scores 64.3 on MMLU with 5-shot prompting.", "gold": "supported", "table": "Table 6", "kind": "claim"}
+{"id": "u01", "doc": "2403.08295", "claim": "Gemma 2B reaches 32.3% pass@1 on HumanEval.", "gold": "contradicted", "table": "Table 6", "kind": "negative", "swap": "column swap"}
+{"id": "u02", "doc": "2403.08295", "claim": "LLaMA-2 13B scores 28.7 on GSM8K.", "gold": "supported", "table": "Table 6", "kind": "claim"}
+{"id": "u03", "doc": "2403.08295", "claim": "Mistral 7B averages 61.0 on the HuggingFace H6 benchmark.", "gold": "supported", "table": "Table 7", "kind": "claim"}
+{"id": "u04", "doc": "2403.08295", "claim": "Gemma 2B scores 24.3 on MATH.", "gold": "contradicted", "table": "Table 6", "kind": "negative", "swap": "column swap"}
+{"id": "u05", "doc": "2403.08295", "claim": "Gemma 7B scores 58.0 on DROP.", "gold": "unsupported", "table": null, "kind": "claim"}
+{"id": "u06", "doc": "2401.04088", "claim": "Mixtral 8x7B reaches 40.2% on HumanEval.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "u07", "doc": "2401.04088", "claim": "Mixtral 8x7B scores 72.5% on German MMLU.", "gold": "contradicted", "table": "Table 4", "kind": "negative", "swap": "column swap"}
+{"id": "u08", "doc": "2401.04088", "claim": "GPT-3.5 has an MT Bench score of 8.32.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "u09", "doc": "2401.04088", "claim": "Llama 2 70B scores 69.6% on GSM8K with 5-shot prompting.", "gold": "contradicted", "table": "Table 3", "kind": "negative", "swap": "condition swap"}
+{"id": "u10", "doc": "2401.04088", "claim": "Mixtral 8x7B uses 13B active parameters.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "u11", "doc": "2401.04088", "claim": "Mixtral 8x7B scores 45.0 on GPQA.", "gold": "unsupported", "table": null, "kind": "claim"}
+{"id": "u12", "doc": "2406.11704", "claim": "Nemotron-4-340B-Base scores 85.44 on BBH.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "u13", "doc": "2406.11704", "claim": "Qwen-2 72B scores 84.20 on MMLU.", "gold": "supported", "table": "Table 3", "kind": "claim"}
+{"id": "u14", "doc": "2406.11704", "claim": "Llama-3 70B reaches 57.32 pass@1 on HumanEval.", "gold": "contradicted", "table": "Table 3", "kind": "negative", "swap": "row swap"}
+{"id": "u15", "doc": "2406.11704", "claim": "Training at a data-parallel size of 64 reached 42.4% MFU.", "gold": "contradicted", "table": "Table 2", "kind": "negative", "swap": "row swap"}
+{"id": "u16", "doc": "2406.11704", "claim": "Training on 3072 GPUs took 10.3 seconds per iteration.", "gold": "supported", "table": "Table 2", "kind": "claim"}
+{"id": "u17", "doc": "2309.16609", "claim": "Qwen 14B scores 66.3 on MMLU.", "gold": "supported", "table": "Table 13", "kind": "claim"}
+{"id": "u18", "doc": "2309.16609", "claim": "Llama 2 70B scores 80.3 on MMLU.", "gold": "contradicted", "table": "Table 13", "kind": "negative", "swap": "column swap"}
+{"id": "u19", "doc": "2309.16609", "claim": "Math-Qwen-Chat 14B reaches 69.8 on GSM8K.", "gold": "supported", "table": "Table 12", "kind": "claim"}
+{"id": "u20", "doc": "2309.16609", "claim": "Qwen-Chat 7B scores 18.4 on MATH.", "gold": "contradicted", "table": "Table 12", "kind": "negative", "swap": "row swap"}
+{"id": "u21", "doc": "2309.16609", "claim": "Qwen 1.8B scores 44.6 on MMLU with zero-shot prompting.", "gold": "contradicted", "table": "Table 13", "kind": "negative", "swap": "condition swap"}

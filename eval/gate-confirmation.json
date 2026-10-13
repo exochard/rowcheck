@@ -1,0 +1,48 @@
+{
+ "split": "confirmation",
+ "docs": [
+  "2404.14219",
+  "2501.00656"
+ ],
+ "seed": 2026101201,
+ "bootstrap_seed": 20261012,
+ "claims": 10,
+ "rowcheck_correct": 8,
+ "baseline_correct": 6,
+ "rowcheck_accuracy": 0.8,
+ "baseline_accuracy": 0.6,
+ "net_improvement_vs_baseline": 2,
+ "rowcheck_accuracy_doc_bootstrap_95": [
+  0.8,
+  0.8
+ ],
+ "citation_table_matches_gold": 8,
+ "citation_checked": 8,
+ "negatives": 0,
+ "negatives_false_supported": 0,
+ "baseline_negatives_false_supported": 0,
+ "rowcheck_mean_s": 11.3,
+ "baseline_mean_s": 4.0,
+ "failures": [
+  {
+   "id": "c21",
+   "claim": "Phi-3.5-mini scores 83.8 on HellaSwag.",
+   "gold": "contradicted",
+   "rowcheck": "supported",
+   "rowcheck_summary": "Table 3 (p. 9) reports 83.8 for Phi-3.5-mini / col2."
+  },
+  {
+   "id": "c28",
+   "claim": "OLMo 7B has an average score of 38.3.",
+   "gold": "supported",
+   "rowcheck": "contradicted",
+   "rowcheck_summary": "Table 7 (p. 11) reports 33.1, not 38.3, for OLMo 7B / Avg. 38.3 is Gemma 3 1B's Avg, Table 7 p. 11."
+  }
+ ],
+ "thresholds": {
+  "accuracy": 0.85,
+  "net_improvement": 3,
+  "negatives_false_supported": 0
+ },
+ "verdict": "fail"
+}
